@@ -30,7 +30,7 @@ export default function Register() {
                     <h1 className="text-4xl font-bold text-center mb-10 text-indigo-600">
                         Crear Cuenta
                     </h1>
-                    <InputLabel htmlFor="name" value="Name" />
+                    <InputLabel htmlFor="name" value="Nombre" />
 
                     <TextInput
                         id="name"
@@ -114,7 +114,7 @@ export default function Register() {
                     </Link>
 
                     <PrimaryButton className="ms-4" disabled={processing}>
-                        Register
+                        Registrar
                     </PrimaryButton>
                 </div>
             </form>

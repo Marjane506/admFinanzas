@@ -10,7 +10,7 @@ export default function GuestLayout({ children }) {
             {/* Header */}
             <header className="p-2">
                 <h1
-                    className="text-4xl font-extrabold text-white
+                    className="text-4xl mt-5 p-2 font-extrabold text-white
                  drop-shadow-lg"
                 >
                     MyFinance Go

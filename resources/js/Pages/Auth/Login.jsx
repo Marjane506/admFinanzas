@@ -33,6 +33,19 @@ export default function Login({ status, canResetPassword }) {
 
             <form onSubmit={submit} className="py-6">
                 <div>
+                    <h1 className="text-4xl font-bold text-center mb-4 text-indigo-600">
+                        Inciar sesión
+                    </h1>
+                    <p className=" mb-10 text-sm text-center font-normal text-gray-500">
+                        ¿Eres nuevo?{" "}
+                        <Link
+                            href={route("register")}
+                            className="text-indigo-600 hover:underline"
+                        >
+                            Regístrate
+                        </Link>
+                    </p>
+
                     <InputLabel htmlFor="email" value="Email" />
 
                     <TextInput
